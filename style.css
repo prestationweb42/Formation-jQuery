@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  width: 70%;
+  height: 200px;
+  margin: 10px auto;
+}
+
+div,
+p,
+article {
+  border: 1px solid black;
+}
+
+p {
+  cursor: pointer;
+  display: inline-block;
+  width: 130px;
+}
+
+.animates {
+  position: relative;
+}
+
+.test_10 {
+  height: 250px;
+}
+
+/* Class */
+.blue {
+  color: blue;
+  font-size: 40px;
+}
+
+.red {
+  color: red;
+  font-size: 30px;
+  width: auto;
+}
+
+.bg_color {
+  background-color: rgb(236, 198, 198);
+}
+
+/* Ajax */
+.test_12 {
+  height: auto;
+}
+.test_12 .btn_ajax {
+  width: auto;
+}
+.test_12 .ajax_text {
+  width: 90%;
+  height: auto;
+}
+.test_12 .ajax_text p {
+  width: auto;
+}
+
+/* Ajax GET*/
+.test_13 {
+  height: auto;
+}
+.test_13 .btn_get_ajax {
+  width: auto;
+}
+
+/* Ajax POST*/
+.test_14 {
+  height: auto;
+}
+.test_14 .btn_post_ajax {
+  width: auto;
+}
+
+/*
+* Animation Library
+*/
+.test_2,
+.btn_toggle,
+.test_3,
+.btn_fadeout,
+.btn_fadein {
+  opacity: 0;
+  background-color: #c54545;
+}
+
+.test_2.animate__animated,
+.test_3.animate__animated,
+.btn_fadeout.animate__animated,
+.btn_fadein.animate__animated {
+  opacity: 1;
+}
+
+.btn_fadein {
+  animation-delay: 150ms;
+}/*# sourceMappingURL=style.css.map */
